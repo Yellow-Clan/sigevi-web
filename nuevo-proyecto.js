@@ -5,7 +5,7 @@ import {
   getTask,
   updateTask,
   getTasks,
-  auth, //auth
+  auth, 
 } from "./firebase.js";
 
 
@@ -21,10 +21,7 @@ let id = "";
 
 // DOMContentLoaded es el evento que ejecuta algo cuando la web cargue 
 window.addEventListener("DOMContentLoaded", async (e) => {
-  // const querySnapshot = await getTasks();
-  // querySnapshot.forEach((doc) => {
-  //   console.log(doc.data());
-  // });
+
 
 
 
