@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigevi | Login</title>
+    <!-- BOOTSWATCH -->
+    <!--     <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/yeti/bootstrap.min.css"
+    /> -->
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body style="background-image: url('assets/socialmediaanimated.gif'); height: 969px; background-size: cover; background-repeat: no-repeat; background-position: center center;">
+    <!-- Wellcome to login web -->
+    <!-- Section: Design Block -->
+    <section class="ftco-section" style=" width: 100%; min-height: 100vh; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 15px; ">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-4">
+                    <div class="wrap">
+                        <div class="img" style="background-image:url(images/xbg-1.jpg.pagespeed.ic.EtoN2PmO7Y.webp)"></div>
+                        <div class="login-wrap p-5 p-md-5" style="backdrop-filter: blur(15px);background-color: #ffffff80;border-radius: 3%;box-shadow: -1px 4px 12px 3px #0000004d; text-align: center;">
+
+                            <form action="/dashboard.html" class="signin-form">
+                                <div class="form-group mt-3">
+                                   <!-- <label class="form-control-placeholder" for="username">Correo</label>  -->                                
+                                    <input type="text" class="form-control" required="" placeholder="Correo">
+  
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                   <!-- <label class="form-control-placeholder" for="password">Password</label> -->
+                                    <input id="password-field" type="password" class="form-control" required="" placeholder="Password">
+
+                                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <button type="submit" class="form-control btn btn-primary rounded submit px-3">INGRESAR</button>
+                                </div>
+                                <div class="form-group d-md-flex">
+
+                                </div>
+                            </form>
+
+                            <br>
+                            <p class="text-center">O ingresar con:</p>
+
+ <!--    <button id="googleLogin">Login with Google</button>
+    <p id="nickname">Hola:</p> -->
+
+                            <button type="submit" id="googleLogin" class="form-control btn btn-primary rounded submit px-3">GOOGLE</button>
+                            <br>
+                            <p class="text-center">No estas registrado? <a data-toggle="tab" href="#signup">Registro</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Design Block -->
+    <!-- CUSTOM CODE -->
+    <script src="./index.js" type="module"></script>
+
+    <!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"
+></script>
+</body>
+
+</html>
